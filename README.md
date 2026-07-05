@@ -144,7 +144,6 @@ Model performance was evaluated using:
 - R² Score
 
 ## Project Pipeline
-## Project Pipeline
 
 ```text
 Problem Definition--> Data Collection --> Data Loading --> Data Understanding --> Data Cleaning --> Data Preprocessing --> Exploratory Data Analysis (EDA) --> Feature Engineering --> Feature Scaling --> Train-Test Split --> Model Building --> Ridge Regression --> Lasso Regression --> Decision Tree Regression --> Random Forest Regression --> Support Vector Regression (SVR) --> Hyperparameter Tuning --> Cross Validation --> Model Evaluation --> Model Comparison --> Best Model Selection --> House Price Prediction --> Project Conclusion
@@ -178,7 +177,7 @@ House_Price_Prediction/
 
 ---
 
-# ▶ Installation
+# Installation
 
 ```bash
 git clone https://github.com/your-username/House_Price_Prediction.git
@@ -190,7 +189,7 @@ pip install -r requirements.txt
 
 ---
 
-# ▶ Run the Project
+#  Run the Project
 
 1. Open **House_Price_Prediction.ipynb** in Google Colab or Jupyter Notebook.
 
@@ -239,7 +238,7 @@ The best-performing model was selected based on the highest R² Score and the lo
 
 ---
 
-# 🔮 Future Enhancements
+# Future Enhancements
 
 - Use real-world housing datasets
 - Deploy using Flask or FastAPI
