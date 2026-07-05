@@ -183,30 +183,6 @@ House_Price_Prediction/
 
 ├── README.md
 
-│
-
-└── requirements.txt
-```
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/House-Price-Prediction.git
-```
-
-Move into the project directory:
-
-```bash
-cd House-Price-Prediction
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Run the Project
 
