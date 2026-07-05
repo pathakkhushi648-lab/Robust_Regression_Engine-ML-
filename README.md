@@ -154,95 +154,123 @@ Problem Definition--> Data Collection --> Data Loading --> Data Understanding --
 
 ```
 
+#  Project Structure
+
+```text
 House_Price_Prediction/
-
 │
-
 ├── data/
-
-│   ├── house_price_dataset.csv
-
+│   └── house_price_dataset.csv
 │
-
 ├── notebooks/
-
-│   ├── House_Price_Prediction.ipynb
-
+│   └── House_Price_Prediction.ipynb
 │
-
 ├── reports/
-
-│   ├── Final_Report.pdf
-
+│   └── Final_Report.pdf
 │
-
 ├── results/
-
-│   ├── Model_Comparison.csv
-
+│   └── Model_Comparison.csv
 │
-
 ├── README.md
+│
+└── requirements.txt
+```
 
+---
 
-## Run the Project
+# ▶ Installation
 
-Open the notebook using Google Colab or Jupyter Notebook.
+```bash
+git clone https://github.com/your-username/House_Price_Prediction.git
 
-Run all cells sequentially from top to bottom.
+cd House_Price_Prediction
 
-Results
+pip install -r requirements.txt
+```
 
-The performance of all machine learning models was compared using multiple evaluation metrics.
+---
 
-The model with the highest R² Score and lowest prediction error was selected as the final model.
+# ▶ Run the Project
 
-Project Features
+1. Open **House_Price_Prediction.ipynb** in Google Colab or Jupyter Notebook.
 
-- Large synthetic dataset with 100,000 records
-- Complete end-to-end machine learning workflow
-- Data preprocessing and cleaning
-- Feature engineering
-- Comprehensive exploratory data analysis
-- Multiple regression algorithms
-- Hyperparameter tuning using GridSearchCV
-- Cross-validation techniques
-- Performance comparison of all models
-- Feature importance analysis
-- Overfitting and underfitting analysis
-- Visualization of model performance
-- Final model selection based on evaluation metrics
-- Professional project documentation
+2. Run all cells sequentially.
 
-Future Enhancements
+3. The notebook will perform:
 
-- Use a real-world housing dataset.
-- Build a Streamlit web application for predictions.
-- Deploy the model using Flask or FastAPI.
-- Store prediction history in a database.
-- Integrate geographic location data.
-- Add deep learning regression models.
-- Deploy the project on cloud platforms.
-- Create interactive dashboards using Power BI or Tableau.
+- Data Preprocessing
+- Exploratory Data Analysis
+- Feature Engineering
+- Model Training
+- Hyperparameter Tuning
+- Cross Validation
+- Model Evaluation
+- House Price Prediction
 
-Learning Outcomes
+---
 
-Through this project, the following concepts were implemented:
+#  Results
 
+The performance of all regression models was compared using:
+
+- MAE
+- MSE
+- RMSE
+- R² Score
+
+The best-performing model was selected based on the highest R² Score and the lowest prediction error.
+
+---
+
+# Project Features
+
+- 100,000 synthetic housing records
+- Complete Machine Learning workflow
 - Data preprocessing
-- Data visualization
 - Feature engineering
-- Regression algorithms
-- Regularization techniques
+- Exploratory Data Analysis
+- Multiple regression algorithms
 - Hyperparameter tuning
 - Cross-validation
-- Model evaluation
-- Performance comparison
-- Machine learning workflow
+- Model comparison
+- Feature importance analysis
+- Performance visualization
+- Final model selection
 
-Author
+---
 
-Swarna Pathak
+# 🔮 Future Enhancements
+
+- Use real-world housing datasets
+- Deploy using Flask or FastAPI
+- Build a Streamlit web application
+- Deploy on cloud platforms
+- Integrate GIS location features
+- Add Deep Learning models
+- Create Power BI dashboards
+
+---
+
+#  Learning Outcomes
+
+This project demonstrates:
+
+- Data Preprocessing
+- Data Visualization
+- Feature Engineering
+- Regression Algorithms
+- Regularization
+- Hyperparameter Tuning
+- Cross Validation
+- Model Evaluation
+- End-to-End Machine Learning Workflow
+
+---
+
+# Author
+
+**Swarna Pathak**
 
 Machine Learning Project
+
 
