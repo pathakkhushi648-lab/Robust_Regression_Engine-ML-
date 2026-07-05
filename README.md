@@ -153,6 +153,7 @@ Problem Definition--> Data Collection --> Data Loading --> Data Understanding --
 ## Project Structure
 
 ```
+
 House_Price_Prediction/
 
 │
@@ -190,13 +191,13 @@ Open the notebook using Google Colab or Jupyter Notebook.
 
 Run all cells sequentially from top to bottom.
 
-## Results
+Results
 
 The performance of all machine learning models was compared using multiple evaluation metrics.
 
 The model with the highest R² Score and lowest prediction error was selected as the final model.
 
-## Project Features
+Project Features
 
 - Large synthetic dataset with 100,000 records
 - Complete end-to-end machine learning workflow
@@ -213,7 +214,7 @@ The model with the highest R² Score and lowest prediction error was selected as
 - Final model selection based on evaluation metrics
 - Professional project documentation
 
-## Future Enhancements
+Future Enhancements
 
 - Use a real-world housing dataset.
 - Build a Streamlit web application for predictions.
@@ -224,7 +225,7 @@ The model with the highest R² Score and lowest prediction error was selected as
 - Deploy the project on cloud platforms.
 - Create interactive dashboards using Power BI or Tableau.
 
-## Learning Outcomes
+Learning Outcomes
 
 Through this project, the following concepts were implemented:
 
@@ -239,7 +240,7 @@ Through this project, the following concepts were implemented:
 - Performance comparison
 - Machine learning workflow
 
-## Author
+Author
 
 Swarna Pathak
 
